@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizzaria La Fornalha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="/scripts/script.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">Pizzaria La Fornalha</div>
+      <nav class="menu">
+        <a href="#Cardapio">CARDÁPIO</a>
+        <a href="#Sobre">SOBRE</a>
+        <a href="#Horário">HORÁRIO</a>
+        <a href="#Contato">CONTATO</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <div class="bannerdapizzaria">
+    <img src="images/pizza-banner.png" alt="Banner">
+  </div>
+
+  <main>
+    <section id="Cardapio">
+      <h2>Cardápio</h2>
+
+      <div class="cardapio-lista" id="lista-pizzas">
+        <div class="pizza-card">
+          <img src="images/pizza1.png" alt="Pizza Margherita">
+          <div class="pizza-content">
+            <h3>Margherita</h3>
+            <p>Molho de tomate, mussarela, manjericão fresco.</p>
+            <p><strong>R$ 29,90</strong></p>
+          </div>
+        </div>
+        <div class="pizza-card">
+          <img src="images/pizza2.png" alt="Pizza Calabresa">
+          <div class="pizza-content">
+            <h3>Calabresa</h3>
+            <p>Calabresa, cebola roxa, mussarela e orégano.</p>
+            <p><strong>R$ 34,90</strong></p>
+          </div>
+        </div>
+
+        <div class="pizza-card">
+          <img src="images/pizza4.png" alt="Pizza Champignon">
+          <div class="pizza-content">
+            <h3>Champignon</h3>
+            <p>Champignon, mussarela, e azeitona.</p>
+            <p><strong>R$ 49,90</strong></p>
+          </div>
+        </div>
+        <div class="pizza-card">
+          <img src="images/pizza5.png" alt="Pizza Bacon">
+          <div class="pizza-content">
+            <h3>Bacon</h3>
+            <p>Bacon, azeitona, e mussarela.</p>
+            <p><strong>R$ 32,90</strong></p>
+          </div>
+        </div>
+        <div class="pizza-card">
+          <img src="images/pizza6.png" alt="Pizza Sobremesa">
+          <div class="pizza-content">
+            <h3>Sobremesa</h3>
+            <p>Chocolate ao leite e Nutella.</p>
+            <p><strong>R$ 42,90</strong></p>
+          </div>
+        </div>
+        <div class="pizza-card adicionar-card" onclick="adicionarPizza()">
+          <img src="images/adicionar.png" alt="Adicionar Pizza">
+          <div class="pizza-content">
+            <h3 style="text-align:center;">Adicionar nova pizza</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="sobre-card">
+      <section id="Sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma pizzaria especializada em pizzas artesanais, utilizando ingredientes frescos e selecionados para
+          garantir o melhor sabor.
+          Nossa missão é oferecer uma experiência única a cada cliente, com um atendimento acolhedor e pizzas feitas com
+          muito carinho.</p>
+      </section>
+    </div>
+
+    <br>
+
+    <div class="sobre-card">
+      <section id="Horário">
+        <h2>Horário</h2>
+        <ul>
+          <li>Domingo a Quinta: 18h00 às 23h00</li>
+          <li>Sexta e Sábado: 18h00 às 00h00</li>
+        </ul>
+      </section>
+    </div>
+
+    <br>
+
+    <div class="sobre-card">
+      <section id="Contato">
+        <h2>Contato</h2>
+        <p>📍 Rua das Pizzas, 123 - Bairro dos Sabores</p>
+        <p>📞 (11) 1234-5678</p>
+        <p>✉ contato@pizzarialafornalha.com.br</p>
+      </section>
+    </div>
+<br>
+     <div class="sobre-card">
+      <section id="Equipe">
+        <h2>Equipe</h2>
+        <ul>
+        <li>JORGE LUIZ HORN JÚNIOR</li>
+        <li>LORENZO FORALOSSO KOCHEMBORGER</li>
+        <li>MATHEUS HENRIQUE POMPEU</li>
+        </ul>
+      </section>
+
+    <br>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pizzaria La Fornalha</p>
+  </footer>
+</body>
+
+</html>
