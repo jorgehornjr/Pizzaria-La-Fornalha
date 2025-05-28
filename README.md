@@ -18,4 +18,4 @@ O projeto é dividido em duas partes principais:
 ---
 
 > Este projeto representa uma iniciativa acadêmica e colaborativa.
-🔗 **[Acesso Direto ao Site](link)**
+🔗 **[Acesso Direto ao Site](https://pizzaria-la-fornalha.onrender.com/)**
